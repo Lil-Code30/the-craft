@@ -1,45 +1,56 @@
-# the-craft
+# The Craft
 
-This is a Next.js application generated with
-[Create Fumadocs](https://github.com/fuma-nama/fumadocs).
+**A continuous journey of programming and software engineering.**
 
-Run development server:
+This repository documents my journey of learning, practicing, experimenting, and exploring computer science.
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+The initial commitment is simple:
 
-Open http://localhost:3000 with your browser to see the result.
+**90 days. 90 sessions. 90 hours of deliberate practice.**
 
-## Explore
+But 90 days is only the beginning.
 
-In the project, you can see:
+## Philosophy
 
-- `lib/source.ts`: Code for content source adapter, [`loader()`](https://fumadocs.dev/docs/headless/source-api) provides the interface to access your content.
-- `lib/layout.shared.tsx`: Shared options for layouts, optional but preferred to keep.
+I started programming because I genuinely enjoyed it. Somewhere along the way (and also because of AI), I became too focused on outcomes, comparisons, technologies, and expectations.
 
-| Route                     | Description                                            |
-| ------------------------- | ------------------------------------------------------ |
-| `app/(home)`              | The route group for your landing page and other pages. |
-| `app/docs`                | The documentation layout and pages.                    |
-| `app/api/search/route.ts` | The Route Handler for search.                          |
+This is my attempt to return to the fundamentals.
 
-### Fumadocs MDX
+- Practice consistently.
+- Learn by doing.
+- Explore different areas of computer science.
+- Understand how systems work.
+- Build things, break things, and understand why.
+- Document what I learn.
+- Enjoy the process.
 
-Collections are defined with the [Macro API](https://fumadocs.dev/docs/mdx/macro) in `lib/source.ts`.
+## Areas of Exploration
 
-Read the [Introduction](https://fumadocs.dev/docs/mdx) for further details.
+- Programming Languages
+- Computer Science Fundamentals
+- Data Structures & Algorithms
+- Operating Systems
+- Linux & Networking
+- Software Engineering
+- System Design & Architecture
+- Cybersecurity
+- DevOps & Infrastructure
+- Artificial Intelligence
 
-## Learn More
+## Daily Commitment
 
-To learn more about Next.js and Fumadocs, take a look at the following
-resources:
+Every morning, from 05:00 to 06:00, I commit to working on one small technical objective.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js
-  features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [Fumadocs](https://fumadocs.dev) - learn about Fumadocs
+The session might involve coding, studying, experimenting, designing, debugging, or solving a problem.
+
+There is no requirement to produce something impressive.
+
+The objective is to show up and practice.
+
+## The 90-Day Experiment
+
+The first 90 days are dedicated to rebuilding discipline and consistency.
+
+At the end, the journey continues.
+
+**No finish line. No comparison. Just the craft.**
