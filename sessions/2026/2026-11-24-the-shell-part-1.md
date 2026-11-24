@@ -31,6 +31,7 @@ What did I build, test, or investigate?
 ## Problems encountered
 
 What needs further investigation?
+N/A
 
 ## References
 
@@ -40,6 +41,10 @@ What needs further investigation?
 
 What did I accomplish?
 
+N/A
+
 ## Next exploration
 
 What might I work on next?
+
+- Finish reading the MIT Missing Semester: The Shell materials and do the exercises.
