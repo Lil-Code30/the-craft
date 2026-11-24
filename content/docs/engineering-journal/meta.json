@@ -1,0 +1,5 @@
+{
+  "title": "Engineering Journal",
+  "icon": "NotebookPen",
+  "pages": ["index", "reflections", "experiments", "reviews"]
+}

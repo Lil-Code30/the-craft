@@ -9,7 +9,11 @@ export default function HomePage() {
         <Link href="/docs" className="font-medium underline">
           /docs
         </Link>{' '}
-        and see the documentation.
+        for the knowledge base, or{' '}
+        <Link href="/sessions" className="font-medium underline">
+          /sessions
+        </Link>{' '}
+        for the daily session records.
       </p>
     </div>
   );

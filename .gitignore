@@ -24,3 +24,12 @@ yarn-error.log*
 .env*.local
 .vercel
 next-env.d.ts
+
+# labs build artifacts
+/labs/**/node_modules/
+/labs/**/target/
+/labs/**/__pycache__/
+/labs/**/build/
+/labs/**/dist/
+/labs/**/*.o
+/labs/**/*.out

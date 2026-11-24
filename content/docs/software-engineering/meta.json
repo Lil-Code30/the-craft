@@ -1,0 +1,12 @@
+{
+  "title": "Software Engineering",
+  "icon": "Workflow",
+  "pages": [
+    "index",
+    "architecture",
+    "design-patterns",
+    "system-design",
+    "api-design",
+    "testing"
+  ]
+}

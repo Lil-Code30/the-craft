@@ -1,0 +1,13 @@
+{
+  "title": "Computer Science",
+  "icon": "GraduationCap",
+  "pages": [
+    "index",
+    "programming",
+    "algorithms",
+    "data-structures",
+    "operating-systems",
+    "databases",
+    "networking"
+  ]
+}

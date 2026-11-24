@@ -1,0 +1,5 @@
+{
+  "title": "Prodigo",
+  "icon": "Boxes",
+  "pages": ["index", "architecture", "decisions", "research", "experiments"]
+}

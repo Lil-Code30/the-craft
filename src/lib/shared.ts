@@ -1,7 +1,8 @@
 import { createGetUrl } from 'fumadocs-core/source';
 
-export const appName = 'My App';
+export const appName = 'The Craft';
 export const docsRoute = '/docs';
+export const sessionsRoute = '/sessions';
 export const docsImageRoute = '/og/docs';
 
 // fill this with your actual GitHub info, for example:

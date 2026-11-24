@@ -1,0 +1,14 @@
+{
+  "title": "Systems & Infrastructure",
+  "icon": "Server",
+  "pages": [
+    "index",
+    "linux",
+    "operating-systems",
+    "docker",
+    "networking",
+    "devops",
+    "cloud",
+    "distributed-systems"
+  ]
+}

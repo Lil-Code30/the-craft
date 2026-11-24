@@ -1,0 +1,5 @@
+{
+  "title": "Cybersecurity",
+  "icon": "Shield",
+  "pages": ["index", "fundamentals", "web-security", "cryptography", "ctf"]
+}
