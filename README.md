@@ -12,7 +12,7 @@ The first 90 days exist to rebuild the habit of showing up every morning and doi
 - **Theory matters.** Tools change constantly; the fundamentals underneath them rarely do.
 - **No manufactured progress.** Only document what was actually studied, built, or understood.
 - **Curiosity sets the order.** The next topic is whatever is most interesting or most useful today.
-- **Write things down.** A session that is not recorded will be forgotten; knowledge that is not distilled will stay scattered.
+- **Write things down.** A session that is not recorded will be forgotten; knowledge that is not written down will stay scattered.
 
 ## Areas of Exploration
 
@@ -28,14 +28,20 @@ The first 90 days exist to rebuild the habit of showing up every morning and doi
 One session per day, roughly one hour, usually in the morning. A session can be reading, coding, debugging, designing, or solving a small problem. The requirement is to show up and practice deliberately.
 
 - Raw session records live in [`sessions/`](sessions/), created from [`sessions/templates/daily-session.md`](sessions/templates/daily-session.md). They are also rendered read-only on the docs site under `/sessions`.
-- Knowledge worth keeping is distilled into the documentation in [`content/docs/`](content/docs/).
+- The knowledge base in [`content/docs/`](content/docs/) is maintained independently — documentation changes happen whenever there is something real to create, correct, or expand.
 - External learning material is indexed in the Resources section of the docs.
+
+## Two Independent Workflows
+
+Sessions and knowledge are two separate types of contributions, not stages of the same workflow. A session does not need to produce documentation; documentation does not need to originate from a session.
+
+Each workflow has its own branch convention, PR title convention, commit convention, and pull request template. Both are documented in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Repository Organization
 
 ```text
 the-craft/
-├── content/docs/            # Fumadocs knowledge base (the distilled, reusable material)
+├── content/docs/            # Fumadocs knowledge base (the permanent, reusable material)
 ├── labs/                    # Executable code — one directory per language or topic
 ├── sessions/                # Daily session records, grouped by year
 └── src/                     # The Fumadocs application itself
@@ -69,7 +75,7 @@ pnpm types:check    # type generation and tsc
 
 The site serves two areas:
 
-- **`/docs`** — the knowledge base: distilled notes, section landing pages, and the resources index.
+- **`/docs`** — the knowledge base: permanent, reusable notes, section landing pages, and the resources index.
 - **`/sessions`** — the raw session records, grouped by year, rendered exactly as written in `sessions/`.
 
 Both areas are searchable from the same dialog (`⌘ K`): a query returns matching knowledge base pages and matching session notes together. Session pages get their titles from the first heading of the note, so no frontmatter is required to record a session — just copy the template, write, and save.
